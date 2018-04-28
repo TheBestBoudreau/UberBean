@@ -15,6 +15,7 @@
 		7E0B0D2E2093C4B700271BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0D2D2093C4B700271BD3 /* main.m */; };
 		7E0B0D382093C4B700271BD3 /* UberBeanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0D372093C4B700271BD3 /* UberBeanTests.m */; };
 		7E0B0D432093C4B700271BD3 /* UberBeanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0D422093C4B700271BD3 /* UberBeanUITests.m */; };
+		7E0B0D522093CE6500271BD3 /* Networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0D512093CE6500271BD3 /* Networking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E0B0D3E2093C4B700271BD3 /* UberBeanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberBeanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0B0D422093C4B700271BD3 /* UberBeanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberBeanUITests.m; sourceTree = "<group>"; };
 		7E0B0D442093C4B700271BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0B0D502093CE6500271BD3 /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
+		7E0B0D512093CE6500271BD3 /* Networking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Networking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7E0B0D1F2093C4B700271BD3 /* AppDelegate.m */,
 				7E0B0D212093C4B700271BD3 /* ViewController.h */,
 				7E0B0D222093C4B700271BD3 /* ViewController.m */,
+				7E0B0D502093CE6500271BD3 /* Networking.h */,
+				7E0B0D512093CE6500271BD3 /* Networking.m */,
 				7E0B0D242093C4B700271BD3 /* Main.storyboard */,
 				7E0B0D272093C4B700271BD3 /* Assets.xcassets */,
 				7E0B0D292093C4B700271BD3 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				7E0B0D232093C4B700271BD3 /* ViewController.m in Sources */,
 				7E0B0D2E2093C4B700271BD3 /* main.m in Sources */,
 				7E0B0D202093C4B700271BD3 /* AppDelegate.m in Sources */,
+				7E0B0D522093CE6500271BD3 /* Networking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
